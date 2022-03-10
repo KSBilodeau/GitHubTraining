@@ -4,7 +4,7 @@ This repo is a dedicated location for teachers and students to work together thr
 
 ##Table of Contents:
 
-1. [Installation](##-Step-#1:-git-installation-and-environment-prep)
+1. [Installation](#step-1-git-installation-and-environment-prep)
 
 ## Step #1: Git Installation and Environment Prep
 
