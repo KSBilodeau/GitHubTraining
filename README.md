@@ -10,12 +10,7 @@ This repo is a dedicated location for teachers and students to work together thr
 
 ##### Windows:
 
-Get the official binary from [here](https://git-for-windows.github.io/) and follow the installation instructions.  Then open your terminal and run the following commands:
-
-```bash
-git config --global user.name "REPLACE_WITH_USERNAME"
-git config --global user.email "REPLACE_WITH_EMAIL"
-```
+Get the official binary from [here](https://git-for-windows.github.io/) and follow the installation instructions.
 
 ##### MacOS:
 
@@ -52,4 +47,13 @@ sudo apt install git-all
 3. Pacman for Arch Linux
 ```bash
 pacman -S git
+```
+
+##### ALL PLATFORMS
+
+Finally open your terminal and run the following commands:
+
+```bash
+git config --global user.name "REPLACE_WITH_USERNAME"
+git config --global user.email "REPLACE_WITH_EMAIL"
 ```
