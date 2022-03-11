@@ -5,6 +5,8 @@ This repo is a dedicated location for teachers and students to work together thr
 ## Table of Contents:
 
 1. [Installation](#step-1-git-installation-and-environment-prep)
+2. [Online Repo Host](#step-2-create-a-github-account)
+3. [Alternative FOSS Repo Host](#step-2-alternative-create-an-ablehub-account)
 
 ## Step #1: Git Installation and Environment Prep
 
@@ -70,16 +72,40 @@ You can find GitHub at [https://github.com/](https://github.com/) and it should 
 
 [![](https://gcdnb.pbrd.co/images/ePnF71gnnTBZ.png?o=1)](https://gcdnb.pbrd.co/images/ePnF71gnnTBZ.png?o=1)
 
-##### Second Step: Click on Sign Up
+##### Second Step: Register
 
 Then click on the sign up button in the top right corner, as shown:
 
 [![](https://gcdnb.pbrd.co/images/gWdkh3hQA5kL.png?o=1)](https://gcdnb.pbrd.co/images/gWdkh3hQA5kL.png?o=1)
 
-##### Final Step: Follow Sign Up Instructions
+##### Final Step: Follow Registration Instructions
 
 You will then be taken to a page that should look like the following image:
 
 [![](https://gcdnb.pbrd.co/images/6G93BMn2S7NC.png?o=1)](https://gcdnb.pbrd.co/images/6G93BMn2S7NC.png?o=1)
+
+Follow the instructions from then on and you should have successfully created a GitHub account!
+
+## Step 2 ALTERNATIVE: Create an AbleHub Account
+
+If you would like a FOSS alternative for hosting your git repositories, then look no further than AbleHub - a lightweight completely open source alternative for hosting git repos.
+
+##### First Step: Navigate to the AbleHub website
+
+You can find the AbleHub website at [](), and it should like this:
+
+[![](https://gcdnb.pbrd.co/images/sQUnHiuWVKdj.png?o=1)](https://gcdnb.pbrd.co/images/sQUnHiuWVKdj.png?o=1)
+
+##### Second Step: Register
+
+Then click on the register button in the top right corner, as shown:
+
+[![](https://gcdnb.pbrd.co/images/QkSt2A2mXl1x.png?o=1)](https://gcdnb.pbrd.co/images/QkSt2A2mXl1x.png?o=1)
+
+##### Final Step: Follow Registration Instructions
+
+You will then be taken to a page that should look like the following image:
+
+[![](https://gcdnb.pbrd.co/images/94ic71QqJJWD.png?o=1)](https://gcdnb.pbrd.co/images/94ic71QqJJWD.png?o=1)
 
 Follow the instructions from then on and you should have successfully created a GitHub account!
