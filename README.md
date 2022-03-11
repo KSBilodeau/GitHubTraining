@@ -57,3 +57,29 @@ Finally open your terminal and run the following commands:
 git config --global user.name "REPLACE_WITH_USERNAME"
 git config --global user.email "REPLACE_WITH_EMAIL"
 ```
+
+## Step #2: Create a GitHub Account
+
+GitHub - the website you are currently viewing this tutorial on -
+is a source sharing website that allows you to upload your git repositories.
+In order to start uploading your own repos, you will need to setup an account with the service.
+
+##### First Step: Navigate to the GitHub website
+
+You can find GitHub at [https://github.com/](https://github.com/) and it should look like this:
+
+[![](https://gcdnb.pbrd.co/images/ePnF71gnnTBZ.png?o=1)](https://gcdnb.pbrd.co/images/ePnF71gnnTBZ.png?o=1)
+
+##### Second Step: Click on Sign Up
+
+Then click on the sign up button in the top right corner, as shown:
+
+[![](https://gcdnb.pbrd.co/images/gWdkh3hQA5kL.png?o=1)](https://gcdnb.pbrd.co/images/gWdkh3hQA5kL.png?o=1)
+
+##### Final Step: Follow Sign Up Instructions
+
+You will then be taken to a page that should look like the following image:
+
+[![](https://gcdnb.pbrd.co/images/6G93BMn2S7NC.png?o=1)](https://gcdnb.pbrd.co/images/6G93BMn2S7NC.png?o=1)
+
+Follow the instructions from then on and you should have successfully created a GitHub account!
