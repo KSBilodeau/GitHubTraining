@@ -2,7 +2,7 @@
 
 This repo is a dedicated location for teachers and students to work together through various simple git related tasks in order to learn the importance of source version control software like Git.  Simply follow the directions in order either as an individual or a group, and you should have no trouble learning everything you need for using git in basic projects.
 
-##Table of Contents:
+## Table of Contents:
 
 1. [Installation](#step-1-git-installation-and-environment-prep)
 
