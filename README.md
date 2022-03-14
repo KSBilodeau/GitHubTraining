@@ -7,6 +7,7 @@ This repo is a dedicated location for teachers and students to work together thr
 1. [Installation](#step-1-git-installation-and-environment-prep)
 2. [Online Repo Host](#step-2-create-a-github-account)
    1. [Alternative FOSS Repo Host (AbleHub)](#step-2-alternative-create-an-ablehub-account)
+3. [SSH Keys](#step-3-ssh-key-for-pushes)
 
 ## Step #1: Git Installation and Environment Prep
 
@@ -109,3 +110,49 @@ You will then be taken to a page that should look like the following image:
 [![](https://gcdnb.pbrd.co/images/94ic71QqJJWD.png?o=1)](https://gcdnb.pbrd.co/images/94ic71QqJJWD.png?o=1)
 
 Follow the instructions from then on and you should have successfully created a GitHub account!
+
+## Step 3: SSH Key for Pushes
+
+While it may seem extremely tedious and unneccessary, having a connected SSH key will make future pushes much simpler in this world of increased internet security awareness.
+
+##### First Step: Generate the Key
+
+Simply use the following command in your terminal:
+
+```bash 
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+*For older systems, you may need to use the following command if the top one does not work:*
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+This will then trigger the following prompts (follow the instructions in [] here, *do not type the [words]*):
+
+```bash
+Generating public/private algorithm key pair.
+> Enter a file in which to save the key (/Users/you/.ssh/id_algorithm): [Press enter here]
+> Enter passphrase (empty for no passphrase): [Type a passphrase here]
+> Enter same passphrase again: [Type passphrase again here]
+```
+
+Congratulations, you have successfully created an SSH key!
+
+###### Note
+
+On MacOS it is recommended to add the SSH passphrase to your keychain, which can be done by running the following command:
+
+```bash
+ssh-add -K ~/.ssh/id_ed25519
+# or for legacy systems
+ssh-add -K ~/.ssh/id_rsa
+```
+
+On MacOS Monterey, -K and -A were deprecated, so use the following command instead:
+```bash
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+# or for legacy systems
+ssh-add --apple-use-keychain ~/.ssh/id_rsa
+```
