@@ -6,7 +6,7 @@ This repo is a dedicated location for teachers and students to work together thr
 
 1. [Installation](#step-1-git-installation-and-environment-prep)
 2. [Online Repo Host](#step-2-create-a-github-account)
-3. [Alternative FOSS Repo Host](#step-2-alternative-create-an-ablehub-account)
+   1. [Alternative FOSS Repo Host (AbleHub)](#step-2-alternative-create-an-ablehub-account)
 
 ## Step #1: Git Installation and Environment Prep
 
