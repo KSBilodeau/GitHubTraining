@@ -8,6 +8,7 @@ This repo is a dedicated location for teachers and students to work together thr
 2. [Online Repo Host](#step-2-create-a-github-account)
    1. [Alternative FOSS Repo Host (AbleHub)](#step-2-alternative-create-an-ablehub-account)
 3. [SSH Keys](#step-3-ssh-key-for-pushes)
+4. [Switch Branches](#final-step-switch-branches)
 
 ## Step #1: Git Installation and Environment Prep
 
@@ -140,9 +141,17 @@ Generating public/private algorithm key pair.
 
 Congratulations, you have successfully created an SSH key!
 
-###### Note
+###### Adding to your SSH agent
 
-On MacOS it is recommended to add the SSH passphrase to your keychain, which can be done by running the following command:
+On most platforms, simply use the following command to add your key to your SSH agent:
+
+```bash
+ssh-add ~/.ssh/id_ed25519
+# or for legacy systems
+ssh-add ~/.ssh/id_rsa
+```
+
+On MacOS it is recommended to add the SSH passphrase to your keychain, so you will want to use this command instead:
 
 ```bash
 ssh-add -K ~/.ssh/id_ed25519
@@ -156,3 +165,73 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 # or for legacy systems
 ssh-add --apple-use-keychain ~/.ssh/id_rsa
 ```
+
+##### Final Step: Adding your key to your repo provider
+
+For the purposes of this tutorial, we will only be covering adding to our supported providers; however, feel free to file an issue on this repo for me to add other providers if you believe it should be here as well.
+
+###### GitHub
+
+You are going to want to first login and navigate to the settings page, like so:
+
+[![Login Page](https://gcdnb.pbrd.co/images/JlT0zshTfYwo.png?o=1 "Login Page")](https://gcdnb.pbrd.co/images/JlT0zshTfYwo.png?o=1 "Login Page")
+
+[![Navigate to Settings](https://gcdnb.pbrd.co/images/Ll33w1lENnfD.png?o=1)](https://gcdnb.pbrd.co/images/Ll33w1lENnfD.png?o=1)
+
+Then you are going to go to the `SSH and GPG keys` pane and click the `New SSH Key` button:
+
+[![Navigate to SSH and GPG keys](https://gcdnb.pbrd.co/images/Fdxbyjt7Y4vo.png?o=1)](https://gcdnb.pbrd.co/images/Fdxbyjt7Y4vo.png?o=1)
+
+[![Click `New SSH key`](https://gcdnb.pbrd.co/images/v1ToikakVRbe.png?o=1 "Click `New SSH key`")](https://gcdnb.pbrd.co/images/v1ToikakVRbe.png?o=1 "Click `New SSH key`")
+
+Finally, you are going to fill in your key information and then click `Add SSH key`:
+
+[![](https://gcdnb.pbrd.co/images/BourIaqRNCue.png?o=1)](https://gcdnb.pbrd.co/images/BourIaqRNCue.png?o=1)
+
+To test your connection run the following command and follow its instructions:
+
+```bash
+ssh -T git@github.com
+```
+
+Should your connection be successful, the final prompt should read as follows:
+
+```
+> Hi username! You've successfully authenticated, but GitHub does not
+> provide shell access.
+```
+
+###### AbleHub
+
+You are going to want to first login and navigate to the settings page, like so:
+
+[![Login Page](https://gcdnb.pbrd.co/images/xqmC7MvhZkWx.png?o=1 "Login Page")](https://gcdnb.pbrd.co/images/xqmC7MvhZkWx.png?o=1 "Login Page")
+
+[![Navigate to Settings](https://gcdnb.pbrd.co/images/3CNRruZMURru.png?o=1)](https://gcdnb.pbrd.co/images/3CNRruZMURru.png?o=1)
+
+Then you are going to go to the `SSH and GPG keys` pane and click the `New SSH Key` button:
+
+[![Navigate to SSH and GPG keys](https://gcdnb.pbrd.co/images/zxWZWt37sTbK.png?o=1)](https://gcdnb.pbrd.co/images/zxWZWt37sTbK.png?o=1)
+
+[![Click `New SSH key`](https://gcdnb.pbrd.co/images/clNqvAIKJa3A.png?o=1 "Click `New SSH key`")](https://gcdnb.pbrd.co/images/clNqvAIKJa3A.png?o=1 "Click `New SSH key`")
+
+Finally, you are going to fill in your key information and then click `Add SSH key`:
+
+[![](https://gcdnb.pbrd.co/images/uK5yeHZTp5Yo.png?o=1)](https://gcdnb.pbrd.co/images/uK5yeHZTp5Yo.png?o=1)
+
+To test your connection run the following command and follow its instructions:
+
+```bash
+ssh -T git.ablecorp.us
+```
+
+Should your connection be successful, the final prompt should read as follows:
+
+```
+> Hi username! You've successfully authenticated, but AbleHub does not
+> provide shell access.
+```
+
+## Final Step: Switch Branches
+
+Now to continue this tutorial, please switch to the branch that matches your programming language of choice.
